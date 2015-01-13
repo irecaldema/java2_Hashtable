@@ -6,12 +6,13 @@ public class Main {
         
         
         Hashtable<String,String,String,String,Integer,String> clase_502=new Hashtable<String,String,String,String,Integer,String>();
-        
+        Alumno alumno = new Alumno;
+        Hashtable<String,Alumno> clase_502=new Hashtable<String,Alumno>();
         /*
         private String dni, Nombre, Apellidos, ciclo;
 	    private int Edad;
         */
-        
+        alumno.set
         clase_502.put("101","08239927Q","Harry","P.",11,"is12");
 	    clase_502.put("102","13560111R","Potter","H.",12,"is12");
 	    clase_502.put("103","89962006J","Ironman","I.",13,"is12");
