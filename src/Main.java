@@ -26,8 +26,8 @@ public class Main {
         */
         
         Alumno alumno1 = new Alumno("08239927Q","Harry","P.",11,"is12");
-        Alumno alumno1 = new Alumno("13560111R","Potter","H.",12,"is12");
-        Alumno alumno1 = new Alumno("89962006J","Ironman","I.",13,"is12");
+        Alumno alumno2 = new Alumno("13560111R","Potter","H.",12,"is12");
+        Alumno alumno3 = new Alumno("89962006J","Ironman","I.",13,"is12");
         
         clase_502.put("101",alumno1);
         clase_502.put("102",alumno2);
@@ -40,11 +40,10 @@ public class Main {
 	    }
 	    
 	    Enumeration<String> llaves = clase_502.keys();
+	    System.out.println("keys:");
 	    while (llaves.hasMoreElements()) {
-		    System.out.println(""+"hashtable llaves: " + llaves.nextElement());
+		    System.out.println("    "+"hashtable llaves: " + llaves.nextElement());
 	    }
 	    
-	    System.out.println("prueba "+clase_502.get("102").get.nombre());
-        
     }
 }
