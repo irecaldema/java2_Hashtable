@@ -26,6 +26,8 @@ public class Main {
         clase_502.put("101",persona);
         persona.setPersona("13560111R","Potter","H.",12);
         clase_502.put("102",persona);
+        persona.setPersona("89962006J","Ironman","I.",13);
+        clase_502.put("103",persona);
 
         /*
         clase_502.put("101","08239927Q","Harry","P.",11,"is12");
