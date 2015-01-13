@@ -7,6 +7,22 @@ public class Persona {
 	private int edad;
 
 	// constructor, getter y setter
+	public Persona(){};
+	
+	public Persona (String dni,String nombre,String apellidos,int edad) {
+	    this.dni=dni;
+	    this.nombre=nombre;
+	    this.apellidos=apellidos;
+	    this.edad=edad;
+	}
+	
+	public void setPersona (String dni,String nombre,String apellidos,int edad) {
+	    this.dni=dni;
+	    this.nombre=nombre;
+	    this.apellidos=apellidos;
+	    this.edad=edad;
+	}
+	
     public void setDni(String dni) {
         this.dni=dni;
     }
@@ -28,10 +44,10 @@ public class Persona {
         return apellidos;
     }  
     
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad=edad;
     }
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }  
 }
