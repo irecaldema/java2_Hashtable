@@ -41,6 +41,11 @@ public class Main {
 	    while (enumeracion.hasMoreElements()) {
 	    	System.out.println("    " + enumeracion.nextElement().getNombre());
 	    }
+	    
+	    Enumeration<String> llaves = clase_502.keys();
+	    while (llaves.hasMoreElements()) {
+		    System.out.println(""+"hashtable llaves: " + llaves.nextElement());
+	    }
         
     }
 }
