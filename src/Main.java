@@ -4,22 +4,11 @@ import java.util.Enumeration;
 public class Main {
     public static void main (String[] args) {
         
-        //Hashtable<String,Alumno> clase_502=new Hashtable<String,Alumno>();
         Hashtable<String,Alumno> clase_502=new Hashtable<String,Alumno>();
         
         /*
         private String dni, Nombre, Apellidos, ciclo;
 	    private int Edad;
-        */
-        
-        /*
-        Persona persona1 = new Persona("08239927Q","Harry","P.",11);
-        Persona persona2 = new Persona("13560111R","Potter","H.",12);
-        Persona persona3 = new Persona("89962006J","Ironman","I.",13);
-
-        clase_502.put("101",persona1);
-        clase_502.put("102",persona2);
-        clase_502.put("103",persona3);
         */
         
         Alumno alumno1 = new Alumno("08239927Q","Harry","P.",11,"is12");
