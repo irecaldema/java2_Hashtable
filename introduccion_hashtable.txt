@@ -1,6 +1,7 @@
 fuentes javadoc
 http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html
 https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html
+http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html
 
 ++
 
