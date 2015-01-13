@@ -4,9 +4,6 @@ import java.util.Enumeration;
 public class Main {
     public static void main (String[] args) {
         
-        
-        //Hashtable<String,String,String,String,Integer,String> clase_502=new Hashtable<String,String,String,String,Integer,String>();
-        //Alumno alumno = new Alumno;
         //Hashtable<String,Alumno> clase_502=new Hashtable<String,Alumno>();
         Hashtable<String,Alumno> clase_502=new Hashtable<String,Alumno>();
         
