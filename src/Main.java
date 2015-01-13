@@ -16,22 +16,22 @@ public class Main {
         */
         
         /*
-        Persona persona = new Persona();
-        persona.setPersona("08239927Q","Harry","P.",11);
-        clase_502.put("101",persona);
-        persona.setPersona("13560111R","Potter","H.",12);
-        clase_502.put("102",persona);
-        persona.setPersona("89962006J","Ironman","I.",13);
-        clase_502.put("103",persona);
+        Persona persona1 = new Persona("08239927Q","Harry","P.",11);
+        Persona persona2 = new Persona("13560111R","Potter","H.",12);
+        Persona persona3 = new Persona("89962006J","Ironman","I.",13);
+
+        clase_502.put("101",persona1);
+        clase_502.put("102",persona2);
+        clase_502.put("103",persona3);
         */
         
-        Alumno alumno = new Alumno();
-        alumno.setAlumno("08239927Q","Harry","P.",11,"is12");
-        clase_502.put("101",alumno);
-        alumno.setAlumno("13560111R","Potter","H.",12,"is12");
-        clase_502.put("102",alumno);
-        alumno.setAlumno("89962006J","Ironman","I.",13,"is12");
-        clase_502.put("103",alumno);
+        Alumno alumno1 = new Alumno("08239927Q","Harry","P.",11,"is12");
+        Alumno alumno1 = new Alumno("13560111R","Potter","H.",12,"is12");
+        Alumno alumno1 = new Alumno("89962006J","Ironman","I.",13,"is12");
+        
+        clase_502.put("101",alumno1);
+        clase_502.put("102",alumno2);
+        clase_502.put("103",alumno3);
 
 	    Enumeration<Alumno> enumeracion = clase_502.elements();
 	    System.out.println("Alumnos:");

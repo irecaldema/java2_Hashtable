@@ -5,7 +5,7 @@ public class Alumno extends Persona {
 
 	// constructor, getter y setter
 
-	public void setAlumno (String dni,String nombre,String apellidos,int edad,String ciclo) {
+	public Alumno (String dni,String nombre,String apellidos,int edad,String ciclo) {
 	    setDni(dni);
 	    setNombre(nombre);
 	    setApellidos(apellidos);
