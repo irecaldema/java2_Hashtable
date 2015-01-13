@@ -43,6 +43,8 @@ public class Main {
 	    while (llaves.hasMoreElements()) {
 		    System.out.println(""+"hashtable llaves: " + llaves.nextElement());
 	    }
+	    
+	    System.out.println("prueba "+clase_502.get("102").get.nombre());
         
     }
 }
