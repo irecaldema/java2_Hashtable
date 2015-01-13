@@ -1,0 +1,76 @@
+fuentes javadoc
+http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html
+https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html
+
+++
+
+http://lineadecodigo.com/java/usar-una-hashtable-java/
+
+Una Hashtable Java es una estructura de datos que utiliza una función hash 
+para identificar datos mediante una llave o clave (ej. Nombre de una 
+persona). 
+La función hash transforma una llave a un valor índice de un arreglo de 
+elementos. En este caso a una índice de nuestra Hashtable Java.
+
+ejemplo:
+
+	Identificador	Dato
+	 101			 Harry
+	 102			 Potter
+	 103			 IRONMAN
+	 104			 IRONMAN
+	 105			 HALLO
+	 
+Lo primero será definir una variable contenedor para instanciar 
+la clase Hashtable Java:
+	 
+	*codigo*
+	Hashtable<String,String> contenedor=new Hashtable<String,String>();
+	*codigo*	
+	
+Nos vamos a ayudar del método .put() para insertar elementos dentro de la 
+Hashtable Java:	
+
+//El primer elemento será la clave y el segundo será el valor a almacenar.
+	
+	*codigo*
+	contenedor.put("101", "Harry");
+	contenedor.put("102", "Potter");
+	contenedor.put("103", "IRONMAN");
+	contenedor.put("104", "IRONMAN");
+	contenedor.put("105", "HALLO");
+	*codigo*
+	
+Si queremos obtener un valor de la Hashtable Java tendremos que 
+pasarle al método .get() la clave que queremos recuperar:	
+	
+	*codigo*
+	System.out.println(contenedor.get("105"));
+	System.out.println(contenedor.get("101"));
+	*codigo*
+Mediante un Enumeration vamos a recorrer el contenido de nuestra 
+Hashtable Java:	
+
+	*codigo*
+	Enumeration<String> enumeration = contenedor.elements();
+	while (enumeration.hasMoreElements()) {
+		System.out.println(""+"hashtable valores: " + enumeration.nextElement());
+	}
+	*codigo*
+
+Si queremos saber cuales son las claves de la Hashtable Java usamos 
+el método .keys().
+	
+	*codigo*
+	Enumeration<String> llaves = contenedor.keys();
+	while (llaves.hasMoreElements()) {
+		System.out.println(""+"hashtable llaves: " + llaves.nextElement());
+	}
+	*codigo*
+	
+También se puede obtener la enumeración de todas las claves mediante el 
+uso del método .keys().
+
+	*codigo*
+	System.out.println("Claves: " +contenedor.keys());
+	*codigo*
