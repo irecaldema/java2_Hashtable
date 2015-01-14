@@ -6,10 +6,8 @@ public class Main {
         
         Hashtable<String,Alumno> clase_502=new Hashtable<String,Alumno>();
         
-        /*
-        private String dni, Nombre, Apellidos, ciclo;
-	    private int Edad;
-        */
+        /*private String dni, Nombre, Apellidos, ciclo;
+	    private int Edad;*/
         
         Alumno alumno1 = new Alumno("08239927Q","Harry","P.",11,"is12");
         Alumno alumno2 = new Alumno("13560111R","Potter","H.",12,"is12");
@@ -18,6 +16,8 @@ public class Main {
         clase_502.put("101",alumno1);
         clase_502.put("102",alumno2);
         clase_502.put("103",alumno3);
+        
+        //git eclipse
 
 	    Enumeration<Alumno> enumeracion = clase_502.elements();
 	    System.out.println("Alumnos:");
